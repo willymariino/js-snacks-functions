@@ -18,7 +18,7 @@ function filterinitials(names, letters) {
 
 // Invoca la funzione qui e stampa il risultato in console
 
-console.log(filterinitials(names));
+console.log(filterinitials(names, "a"));
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
