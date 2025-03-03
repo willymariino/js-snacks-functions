@@ -5,10 +5,13 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
 
-function filterinitials(names) {
+function filterinitials(names, letters) {
     let initials = []
     for (let i = 0; i < names.length; i++)
-        initials.push(names[i].filter(a))
+        // controlla se il nome inizia con la lettera specificata (case insensitive)
+        if (names[i].charAt(0).toLowerCase() === letters.toLowerCase()) {
+            initials.push(names[i]); // aggiunge il nome all'array risultato
+        }
     return initials;
 }
 
