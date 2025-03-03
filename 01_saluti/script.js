@@ -12,7 +12,7 @@ return "ciao" + userName
 // Invoca la funzione qui e stampa il risultato in console
 
 const res = hello("saluto", userName)
-console.log(hello)
+console.log(res)
 
 
 
