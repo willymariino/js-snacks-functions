@@ -11,7 +11,7 @@ function hello(saluto, nome) {
 
 // Invoca la funzione qui e stampa il risultato in console
 
-hello()
+hello("ciao", userName)
 console.log(hello)
 
 
