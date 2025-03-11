@@ -5,22 +5,22 @@
 
 // Dichiara la funzione qui.
 
-const word = stringa
+
 
 function getvowels(vowels) {
     let conteggio = 0
-    const vocali = [a, e, i, o, u,]
+    const vocali = ["a", "e", "i", "o", "u",]
     for (let i = 0; i < word.length; i++) {
         if (vowels.includes(word[i])) {
-            vowels++
+            conteggio++
         }
 
 
-        return vowels
+        return conteggio
     }
 }
 
-const risultato = getvowels(result)
+const risultato = getvowels("result")
 console.log("le vocali sono", risultato)
 
 
