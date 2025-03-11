@@ -10,14 +10,15 @@
 function getvowels(vowels) {
     let conteggio = 0
     const vocali = ["a", "e", "i", "o", "u",]
-    for (let i = 0; i < word.length; i++) {
-        if (vowels.includes(word[i])) {
+    for (let i = 0; i < vowels.length; i++) {
+        if (vocali.includes(vowels[i])) {
             conteggio++
         }
 
 
-        return conteggio
+
     }
+    return conteggio
 }
 
 const risultato = getvowels("result")
